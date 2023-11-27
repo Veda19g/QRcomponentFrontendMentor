@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Alumni+Sans+Inline+One:ital@1&family=Inter:wght@400;600;700&family=Libre+Baskerville&family=Montserrat:wght@400;700&family=Outfit&family=Roboto:wght@300&family=Rubik+Iso&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Alumni+Sans+Inline+One:ital@1&family=Inter:wght@400;600;700&family=Libre+Baskerville&family=Montserrat:wght@400;700&family=Outfit:wght@700&family=Roboto:wght@300&family=Rubik+Iso&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  
+    body{
+      display: flex;
+      justify-content: center;
+      font-family: Outfit;
+      background-color:  hsl(212, 45%, 89%);
+    }
+
+    .component{
+      margin-top: 80px;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+      width: 380px;
+     height: 600px;
+      border-radius: 35px;
+    }
+    .component--image{
+      height: 370px;
+      width: 350px;
+      border-radius: 40px;
+      align-items: center;
+      
+    }
+    .component--heading{
+      font-size: 28px;
+      font-weight: 700;
+      align-items: center;
+      padding: 12px;
+      padding-left: 32px;
+      color: hsl(218, 44%, 22%);
+    }
+   .component--description{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+   @media only screen and (max-width: 600px) {
+    .component{
+      margin-top: 80px;
+      margin-left: 7px;
+      margin-right: 7px;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+      width: 370px;
+      height: 600px;
+      border-radius: 35px;
+    }
+
+   }
+  </style>
+</head>
+<body>
+
+  <div class="component">
+    <img  class="component--image" src="./images/image-qr-code.png"  />
+    <div class="component--heading">Improve your front-end skills by building projects</div>
+    <div class="component--description">
+      Scan the QR code to visit Frontend</br>
+      Mentor and take your coding skills to</br>
+      the next level
+    </div>
+  </div>
+
+
+
+</body>
+</html>
